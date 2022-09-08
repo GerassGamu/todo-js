@@ -11,8 +11,13 @@ todoList.todos.forEach(todo => crearTodoHtml(todo));
 // todoList.todos.forEach(crearTodoHtml);
 
 const newTodo = new Todo('Aprender JS');
+
 // todoList.nuevoTodo(newTodo);
-todoList.todos[0].imprimirClase();
+
+//todoList.todos[0].imprimirClase();
+
+
+
 console.log('todos',todoList.todos);
 // console.log(todoList.todos);
 
